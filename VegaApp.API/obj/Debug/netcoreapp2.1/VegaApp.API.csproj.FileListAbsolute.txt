@@ -1,0 +1,14 @@
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\bin\Debug\netcoreapp2.1\VegaApp.API.deps.json
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\bin\Debug\netcoreapp2.1\VegaApp.API.runtimeconfig.json
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\bin\Debug\netcoreapp2.1\VegaApp.API.runtimeconfig.dev.json
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\bin\Debug\netcoreapp2.1\VegaApp.API.dll
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\bin\Debug\netcoreapp2.1\VegaApp.API.pdb
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\obj\Debug\netcoreapp2.1\VegaApp.API.csprojAssemblyReference.cache
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\obj\Debug\netcoreapp2.1\VegaApp.API.csproj.CoreCompileInputs.cache
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\obj\Debug\netcoreapp2.1\VegaApp.API.RazorAssemblyInfo.cache
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\obj\Debug\netcoreapp2.1\VegaApp.API.RazorAssemblyInfo.cs
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\obj\Debug\netcoreapp2.1\VegaApp.API.AssemblyInfoInputs.cache
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\obj\Debug\netcoreapp2.1\VegaApp.API.AssemblyInfo.cs
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\obj\Debug\netcoreapp2.1\VegaApp.API.RazorTargetAssemblyInfo.cache
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\obj\Debug\netcoreapp2.1\VegaApp.API.dll
+D:\Documents\Dev-Repo\udemy-hamedani-vega\VegaApp.API\obj\Debug\netcoreapp2.1\VegaApp.API.pdb
