@@ -1,4 +1,8 @@
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using VegaApp.API.Models;
 
 namespace VegaApp.API.Data
 {
@@ -32,6 +36,17 @@ namespace VegaApp.API.Data
             // then this method will return true or else, it will return false
             return await _context.SaveChangesAsync() > 0;
         }
+
+        public async Task<IEnumerable<Make>> GetMakeList() 
+        {
+            var makes = await _context.Makes
+                .Include(m => m.Models)
+                .OrderBy(m => m.Name)
+                .ToListAsync();
+
+            return makes;
+        }
+        
         #endregion
     }
 }
