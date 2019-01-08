@@ -18,6 +18,12 @@ namespace VegaApp.API.Data
         /// Get the list of makes
         /// </summary>
         /// <returns></returns>       
-        Task<IEnumerable<Make>> GetMakeList();
+        Task<IEnumerable<Make>> GetMakes();
+
+        /// <summary>
+        /// Get the list of features
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<Feature>> GetFeatures();
     }
 }

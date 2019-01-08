@@ -41,6 +41,8 @@ namespace VegaApp.API.Data
                         }
                     }
                 });
+
+                _context.SaveChanges();
             }
 
             if (!_context.Features.Any()) {
@@ -52,10 +54,10 @@ namespace VegaApp.API.Data
                 });
                 _context.Features.Add(new Feature {
                     Name = "GPS"
-                });
-            }
+                });                
 
-            _context.SaveChanges();
+                _context.SaveChanges();
+            }
         }
     }
 }

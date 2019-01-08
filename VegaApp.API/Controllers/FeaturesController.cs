@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -9,15 +10,15 @@ namespace VegaApp.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class MakesController : ControllerBase
+    public class FeaturesController : ControllerBase
     {
-        #region Field
+        #region Fields
         private readonly IVegaRepository _repo;
         private readonly IMapper _mapper;
         #endregion
 
         #region Ctor
-        public MakesController(IVegaRepository repo, 
+        public FeaturesController(IVegaRepository repo, 
             IMapper mapper) {
             _repo = repo;
             _mapper = mapper;
@@ -25,16 +26,14 @@ namespace VegaApp.API.Controllers
         #endregion
 
         #region Methods
-
         [HttpGet]
-        public async Task<IActionResult> GetMakes() {
-            var makesFromRepo = await _repo.GetMakes();
+        public async Task<IActionResult> GetFeatures() {
+            var featuresFromRepo = await _repo.GetFeatures();
 
-            var makesToReturn = _mapper.Map<IEnumerable<MakeForListDto>>(makesFromRepo);
+            var featuresToReturn = _mapper.Map<IEnumerable<FeatureForDetailDto>>(featuresFromRepo);
 
-            return Ok(makesToReturn);
+            return Ok(featuresToReturn);
         }
-
         #endregion
     }
 }
