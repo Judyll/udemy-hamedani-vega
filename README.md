@@ -1,5 +1,5 @@
 # udemy-hamedani-vega
-Build a full-stack web app with ASP.NET Core, Entity Framework Core and Angular 2 (Angular 4+)
+Build a full-stack web app with ASP.NET Core WebAPI (v2.1) and Angular (v6) 
 
 COURSE URL: https://www.udemy.com/aspnet-core-angular/learn/v4/overview
 
